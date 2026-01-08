@@ -1,4 +1,4 @@
-const BASE_URL = "https://algodealer.onrender.com/";
+const BASE_URL = "https://algodealer.onrender.com/api";
 
 export async function fetchDashboardSummary() {
   const res = await fetch(`${BASE_URL}/dashboard/summary`);
